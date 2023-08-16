@@ -1,0 +1,234 @@
+.logo {
+    width: 80px;
+    border-radius: 10px
+}
+
+.header {
+    border-bottom: 3px solid red;
+    border-top: 3px solid red;
+    cursor: pointer;
+    color: white;
+}
+
+li,
+a {
+    margin: 0px 7px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: larger;
+}
+
+.presentacion {
+    background-image: url(../img/fondo0.jpg);
+    object-fit: cover;
+}
+
+.main {
+    border-bottom: 3px solid red;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    margin-bottom: 40px;
+    padding: 5px 0px;
+    background-image: url(../img/fondo3db.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main::before {
+    background: linear-gradient(90deg, black, red);
+    opacity: 0, 7;
+}
+
+h1 {
+    font-size: 200px;
+}
+
+.img {
+    width: 900px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    margin-top: 30px;
+}
+
+.titulo1 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.texto {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.texto1 {
+    text-align: justify;
+    color: white;
+    font-size: x-large;
+    justify-content: center;
+}
+
+.texto2 {
+    margin-top: 10px;
+    margin-bottom: 65px;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    justify-content: center;
+}
+
+.texto3 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    justify-content: center;
+    text-size-adjust: auto;
+}
+
+.cuadro {
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.preguntas {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit,
+            minmax(150px, 1fr));
+    gap: 32px;
+}
+
+.card {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    margin-right: 5px;
+    transition: all 3s;
+}
+
+.card:hover {
+    height: 400px;
+    width: 400px;
+}
+
+.mapeado {
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapa {
+    width: 100%;
+    height: 600px;
+    margin-top: 5px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    object-position: center;
+    object-fit: cover;
+    margin-bottom: 35px;
+}
+
+.carrusel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    object-position: center;
+    object-fit: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.textoCarrusel {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+.modelado {
+    max-width: 75%;
+    max-height: 75%;
+    align-items: center;
+    justify-content: center;
+    margin: 1px 1px 1px 200px;
+    size: 50rem;
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario {
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 75%;
+}
+
+.tituloGrande {
+    font-size: 4vw;
+    text-align: center;
+    color: white;
+}
+
+.tituloGrande1 {
+    font-size: 7vw;
+    text-align: center;
+    color: white;
+}
+
+.listado {
+    border: 6px black;
+    border-radius: 10px;
+    margin-top: 79px;
+}
+
+.lista {
+    border: 2px solid white;
+    border-radius: 8px;
+    color: red;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    justify-content: space-between;
+    background-color: red;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.tienda {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+footer {
+    color: white;
+}

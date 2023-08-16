@@ -1,0 +1,136 @@
+.logo {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.header {
+  border-bottom: 3px solid red;
+  border-top: 3px solid red;
+  cursor: pointer;
+  color: white;
+}
+
+li,
+a {
+  margin: 0px 7px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: larger;
+}
+
+.presentacion {
+  background-image: url(../img/fondo0.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main {
+  border-bottom: 3px solid red;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  margin-bottom: 40px;
+  padding: 5px 0px;
+  background-image: url(../img/fondo3db.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main::before {
+  background: linear-gradient(90deg, black, red);
+  opacity: 0, 7;
+}
+
+h1 {
+  font-size: 200px;
+}
+
+.img {
+  width: 900px;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo {
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}
+
+.texto {
+  text-align: center;
+  color: white;
+  font-size: large;
+  justify-content: center;
+}
+
+.texto1 {
+  text-align: justify;
+  color: white;
+  font-size: large;
+  justify-content: center;
+}
+
+.cuadro {
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+.preguntas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 32px;
+}
+
+.card {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.mapa {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.modelado {
+  max-width: 75%;
+  max-height: 75%;
+  align-items: center;
+  justify-content: center;
+  margin: 1px 1px 1px 200px;
+  size: 50rem;
+}
+
+.tienda {
+  display: flex;
+  flex-direction: column;
+  -moz-columns: 3;
+       columns: 3;
+  text-align: center;
+  flex-wrap: wrap;
+  color: antiquewhite;
+}
+
+.card {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.formulario {
+  border: 5px solid white;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+footer {
+  color: white;
+}/*# sourceMappingURL=estilo.css.map */
